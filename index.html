@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download File</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f4f6f8;
+      color: #1f2937;
+    }
+    .card {
+      background: #ffffff;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      color: #6b7280;
+      font-size: 0.95rem;
+      margin-bottom: 1.75rem;
+    }
+    .download-btn {
+      display: inline-block;
+      background-color: #2563eb;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.85rem 1.75rem;
+      border-radius: 8px;
+      transition: background-color 0.2s ease;
+    }
+    .download-btn:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Your File is Ready</h1>
+    <p>Click the button below to download <strong>Mario Bros (c) 2016</strong> (2.4 MB).</p>
+    
+    <!-- Update 'href' to your file path and 'download' to the desired saved filename -->
+    <a href="EscapeAble/Mario Bros 2016.EXE" download="Mario Bros 2016.EXE" class="download-btn">
+      Download File
+    </a>
+  </div>
+
+</body>
+</html>
